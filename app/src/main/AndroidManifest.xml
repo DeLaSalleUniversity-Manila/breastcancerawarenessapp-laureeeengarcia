@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lbycp24_everreadygroup.gopink" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GoPink!"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="GoPink!" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuActivity"
+            android:label="GoPink!"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.coderefer.androidsplashscreenexample.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Information"
+            android:label="Information"
+            android:theme="@style/AppTheme">
+        </activity>
+
+                <activity
+                    android:name=".Facts"
+                    android:label="Facts"
+                    android:theme="@style/AppTheme">
+                </activity>
+
+                <activity
+                    android:name=".Causes"
+                    android:label="Causes"
+                    android:theme="@style/AppTheme">
+                </activity>
+
+                <activity
+                    android:name=".Symptoms"
+                    android:label="Symptoms"
+                    android:theme="@style/AppTheme">
+                </activity>
+
+                <activity
+                    android:name=".Treatments"
+                    android:label="Treatments"
+                    android:theme="@style/AppTheme">
+                </activity>
+
+                <activity
+                    android:name=".BCancer"
+                    android:label="Breast Cancer"
+                    android:theme="@style/AppTheme">
+                </activity>
+
+        <activity
+            android:name=".News"
+            android:label="News"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".Testimonies"
+            android:label="Testimonies"
+            android:theme="@style/AppTheme">
+        </activity>
+
+                <activity
+                    android:name=".EarlyIntervention"
+                    android:label="@string/title_activity_early_intervention"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".LivingBreast"
+                    android:label="@string/title_activity_living_breast"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".Metastasis"
+                    android:label="@string/title_activity_metastasis"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".Prevention"
+                    android:label="@string/title_activity_prevention"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".Survivors"
+                    android:label="@string/title_activity_survivors"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".norie"
+                    android:label="@string/title_activity_norie"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".placida"
+                    android:label="@string/title_activity_placida"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".marivic"
+                    android:label="@string/title_activity_marivic"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".rosalie"
+                    android:label="@string/title_activity_rosalie"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".bernardita"
+                    android:label="@string/title_activity_bernardita"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".rosalisa"
+                    android:label="@string/title_activity_rosalisa"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".ma_cristina"
+                    android:label="@string/title_activity_ma_cristina"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".marcelina"
+                    android:label="@string/title_activity_marcelina"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".juanita"
+                    android:label="@string/title_activity_juanita"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".helen"
+                    android:label="@string/title_activity_helen"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".annaliza"
+                    android:label="@string/title_activity_annaliza"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".teresita"
+                    android:label="@string/title_activity_teresita"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".anna"
+                    android:label="@string/title_activity_anna"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".ma_victoria"
+                    android:label="@string/title_activity_ma_victoria"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".patria"
+                    android:label="@string/title_activity_patria"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".julie"
+                    android:label="@string/title_activity_julie"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".theodora"
+                    android:label="@string/title_activity_theodora"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".concepcion"
+                    android:label="@string/title_activity_concepcion"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".ma_ascuncion"
+                    android:label="@string/title_activity_ma_ascuncion"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".jane"
+                    android:label="@string/title_activity_jane"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".ana"
+                    android:label="@string/title_activity_ana"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".mercy"
+                    android:label="@string/title_activity_mercy"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".richilda"
+                    android:label="@string/title_activity_richilda"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".lily"
+                    android:label="@string/title_activity_lily"
+                    android:theme="@style/AppTheme">
+                </activity>
+                <activity
+                    android:name=".bibiana"
+                    android:label="@string/title_activity_bibiana"
+                    android:theme="@style/AppTheme">
+                </activity>
+
+        <activity
+            android:name=".Help"
+            android:label="Help"
+            android:theme="@style/AppTheme">
+        </activity>
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
